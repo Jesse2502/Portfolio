@@ -1,0 +1,15 @@
+body {
+    background-color: #f9ca24;
+}
+h1 {
+    color:#130f40
+}
+h2 {
+    color: #130f40;
+}
+img {
+    float: right;
+}
+ul {
+    list-style-type: circle;
+  }

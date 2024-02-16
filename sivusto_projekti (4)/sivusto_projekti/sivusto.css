@@ -1,0 +1,44 @@
+body {background-color: #E4DCCF;}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #EA5455;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #F9F5EB;
+  }
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #EA5455;
+    color: white;
+    text-align: center;
+  }
+.footer a:hover {
+    background-color:#F9F5EB ;
+    padding: 16px;
+}
+p {
+    text-align: center;
+    background-color: #EA5455;
+}
+form{text-align: center;
+}
+video {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
