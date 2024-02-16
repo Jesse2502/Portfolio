@@ -1,0 +1,8 @@
+05.02.2024	Profiilin "Tietoja minusta" muokkaus toimii.
+06.02.2024	-Nyt pitäisi toimia käyttäjänimen, bion ja salasanan muokkaus.
+		-Yhdistetty blogien julkaiseminen ja lista missä niitä voi katsella.
+		-Pitäisi tehdä muotoilut blogilistalle, blogin julkaisulle ja blogin katsomiselle.
+		-Blogeissa lukee kirjoittajan nimi.
+
+09.02.2024	-Omasta profiilista näkee omat blogit.
+		-Blogin muokkaussivu (blogia ei vielä voi muokata)

@@ -1,0 +1,148 @@
+body {
+  background-color: grey;
+}
+
+form {
+    border: 3px solid #f1f1f1;
+  }
+  
+  #profile_email {
+    background-color:rgba(0, 0, 0, 0.15)
+  }
+
+  input[type=text],
+  input[type=email],
+  input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  .active {
+    background-color: black;
+  }
+  
+  button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  
+  .cancelbtn {
+    background-color: #f44336;
+    color: white;
+  }
+
+  #ylarivi {
+    display: flex;
+    align-items: center;
+  }
+  
+  #muokkaa_profiilia {
+    position: absolute;
+    right: 0px;
+    margin-right: 3%;
+    align-self: right;
+    width: 150px;
+  }
+  
+  #bio {
+      resize: none;
+      height: 150px;
+      width: 100%;
+    }
+
+  label #bio {
+    margin-bottom: 15px;
+  }
+
+  #muokkaus_napit {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+
+  .submitbtn, .cancelbtn {
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 140px;
+  }
+
+  
+  .container {
+    padding: 16px;
+    padding-top: 180px;
+  }
+  
+  
+  
+  
+  @media screen and (max-width: 300px) {
+    span.ssana {
+      display: block;
+      float: none;
+    }
+  
+    .cancelbtn {
+      width: 100%;
+    }
+  }
+  
+  /*navbar koodi alkaa tästä*/
+  .moi .navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.3);
+    margin: 2% 0 0 0;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  .moi .navbar ul {
+    position: relative;
+    height: 100%;
+    width: 50%;
+    font-family: 'cinzel', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    right: -45%;
+  }
+  
+  .moi .navbar ul li {
+    list-style-type: none;
+    display: inline-block;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 2px;
+    padding: 10px;
+    transition: 0.2s ease-in-out;
+    box-shadow: 0px 0.5px 5px rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+    cursor: pointer;
+  }
+  
+  .moi .navbar ul li a {
+    list-style-type: none;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .moi .navbar ul li:hover {
+    background: rgba(0, 0, 0, 0.4);
+  }

@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul {
+    float: left;
+    width: 100%;
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+    float: left;
+    width: 7em;
+    color: white;
+    background-color: #4b7bec;
+    padding: 0.5em 0.6em;
+    border-right: 1px solid white;
+}
+
+a:hover {
+    background-color: #3867d6;
+}
+
+li {
+    display: inline;
+    text-align: center;
+}
+ul.pysty li {
+    clear: both;
+    display: list-item;
+}
